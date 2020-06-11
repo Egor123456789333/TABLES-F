@@ -1,0 +1,26 @@
+.Trade-list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.trade-title {
+  display: flex;
+  font-size: 14px;
+  margin: 15px 0 10px;
+
+  span {
+    width: 145px;
+  }
+
+  .first-title,
+  .second-title {
+    width: 20%;
+  }
+
+  .third-title,
+  .fouth-title,
+  .five-title {
+    width: 13%;
+  }
+}

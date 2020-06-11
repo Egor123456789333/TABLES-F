@@ -1,0 +1,44 @@
+.Trade-item {
+  width: 100%;
+  display: flex;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  height: 35px;
+  line-height: 19px;
+
+  .trade-status {
+    width: 90px;
+    font-size: 12px;
+    line-height: 16px;
+    color: $light-gray;
+    margin-right: 5px;
+  }
+
+  .trade-id {
+    justify-content: right;
+    width: 40px;
+    margin-right: 10px;
+    color: $dark-gray;
+  }
+
+  .trade-description,
+  .trade-name {
+    width: 20%;
+  }
+
+  .trade-name {
+    font-weight: bold;
+  }
+
+  .trade-date-application,
+  .trade-date-of-the,
+  .trade-date-approval {
+    width: 13%;
+  }
+
+  .trade {
+    display: flex;
+    align-items: center;
+  }
+}

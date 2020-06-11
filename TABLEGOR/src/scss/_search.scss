@@ -1,0 +1,16 @@
+.Search {
+  .search-line {
+    display: flex;
+    align-items: center;
+  }
+}
+
+#first-date,
+#second-date {
+  margin: 0 10px;
+  border-bottom: 1px dashed $odd;
+}
+
+#search-text {
+  width: 240px;
+}

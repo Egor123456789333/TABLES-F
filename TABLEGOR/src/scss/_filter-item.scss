@@ -1,0 +1,23 @@
+.filter-item {
+  padding: 10px 35px;
+  object-fit: cover;
+  display: block;
+  background-color: $odd;
+  border: none;
+  color: $light-gray;
+  font-size: 14px;
+  cursor: pointer;
+  user-select: none;
+  -moz-transition: color 0.1s linear;
+  -webkit-transition: color 0.1s linear;
+  -o-transition: color 0.1s linear;
+  transition: color 0.1s linear;
+
+  &:hover {
+    color: $text;
+  }
+}
+
+.active {
+  color: black;
+}
